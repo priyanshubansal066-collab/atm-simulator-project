@@ -16,4 +16,4 @@ This project simulates a simple ATM machine using C programming. Users can verif
 1. Navigate to the `src` folder.
 2. Compile using:
    ```bash
-   gcc atm_simulator.c -o atm_simulator
+   gcc atm_simulator.c -I ../include -o atm_simulator
